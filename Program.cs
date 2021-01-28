@@ -26,7 +26,6 @@ namespace _6502asm_interpreter {
 			MEM memory = new MEM();
 			CPU cpu = new CPU(memory);
 
-			
 			memory.setMem(0xFFFC, 0x00); //reset vector
 			memory.setMem(0xFFFD, 0x00);
 			
